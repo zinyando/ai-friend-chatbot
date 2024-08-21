@@ -101,7 +101,7 @@ def main():
         )
 
         memory.add(f"{user_id}: {user_input}", user_id=user_id)
-        memory.add(f"Hazel: {user_input}", user_id=user_id)
+        memory.add(f"Hazel: {reply['content']}", user_id=user_id)
 
         print(f"Hazel: {reply['content']}")
 
