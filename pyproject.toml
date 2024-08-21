@@ -11,6 +11,7 @@ python = ">=3.10,<3.13"
 groq = "^0.9.0"
 pyautogen = "^0.2.34"
 mem0ai = "^0.0.21"
+chromadb = "^0.5.5"
 
 
 [build-system]
