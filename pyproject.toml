@@ -8,10 +8,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
-groq = "^0.9.0"
-pyautogen = "^0.2.34"
-mem0ai = "^0.0.21"
+groq = "^0.11.0"
 chromadb = "^0.5.5"
+gradio = "^4.43.0"
+pyautogen = "^0.3.0"
+mem0ai = "^0.1.11"
+python-dotenv = "^1.0.1"
 
 
 [build-system]

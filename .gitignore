@@ -1,3 +1,4 @@
 .env
 .cache
 chroma_db
+gradio_cached_examples
